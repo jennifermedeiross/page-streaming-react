@@ -8,7 +8,7 @@ const Home = () => {
       <HeaderHome />
       <div className='home'>
         <h1>DevFlix</h1>
-        <p>Você não precisa sair de casa para ir ao cinema, nós levamos até você!</p>
+        <p>You don't have to leave the house to go to the movies, we'll take it to you!</p>
         <span></span>
       </div>
     </div>
