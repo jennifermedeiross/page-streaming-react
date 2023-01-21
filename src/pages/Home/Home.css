@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.home h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 130px;
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
+.home p {
+  font-size: 24px;
+  margin-left: 2em;
+  margin-top: -2em;
+}
