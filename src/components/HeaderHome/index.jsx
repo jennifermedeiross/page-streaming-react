@@ -1,10 +1,11 @@
+import { Link } from 'react-router-dom'
 import './HeaderHome.css'
 
-const HeaderHome = () => {
+const HeaderHome = ( { page, url } ) => {
   return (
     <header className='headerHome'>
-      <a href="#">Contact</a>
-      <button>Sign In</button>
+      <Link to={url} className='link-page'>{page}</Link>
+      <Link to='/acess' className='acess'>Sign In</Link>
     </header>
   )
 }
