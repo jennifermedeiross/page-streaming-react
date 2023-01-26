@@ -1,0 +1,32 @@
+.pageAcess {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.acess-title {
+  width: 50%;
+}
+
+.acess-title a{
+  text-decoration: none;
+  color: #fff;
+  transition: .3s;
+}
+
+.acess-title a:hover {
+  text-shadow: 2px 5px 6px #000;
+  transition: .2s;
+}
+
+.acess-title h1 {
+  text-align: center;
+  font-family:'Cinzel', serif;
+  font-size: 100px;
+
+}
+
+.acess-form {
+  width: 50%;
+}

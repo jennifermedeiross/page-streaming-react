@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import Acess from './pages/Acess';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       </Routes>
 
       <Routes>
-        <Route />
+        <Route path='/acess' element={ <Acess /> }/>
         <Route /> 
       </Routes>
 

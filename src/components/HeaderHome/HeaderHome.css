@@ -18,7 +18,7 @@
   transition: .2s;
 }
 
-.acess {
+.buttonAcess {
   text-decoration: none;
   text-align: center;
   font-size: 18px;
@@ -33,7 +33,7 @@
   transition: .2s;
 }
 
-.acess:hover {
+.buttonAcess:hover {
   background-color: #44567e;
   border-color: #44567e;
   transition: .2s;
