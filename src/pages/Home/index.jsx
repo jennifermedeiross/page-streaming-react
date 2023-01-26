@@ -1,4 +1,5 @@
 import HeaderHome from '../../components/HeaderHome'
+import TitleHome from '../../components/TitleHome'
 
 import './Home.css'
 
@@ -7,9 +8,7 @@ const Home = () => {
     <div>
       <HeaderHome page={'Contact'} url={'/contact'}/>
       <div className='home'>
-        <h1>DevFlix</h1>
-        <p>You don't have to leave the house to go to the movies, we'll take it to you!</p>
-        <span></span>
+        <TitleHome />
       </div>
     </div>
       

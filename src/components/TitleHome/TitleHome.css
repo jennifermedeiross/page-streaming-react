@@ -1,0 +1,15 @@
+.titleHome h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 130px;
+  margin-top: 2em;
+}
+
+.titleHome p {
+  font-size: 24px;
+  margin-left: 2em;
+  margin-top: -2.5em;
+}
