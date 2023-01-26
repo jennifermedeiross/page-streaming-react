@@ -1,0 +1,26 @@
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social h2 {
+  font-size: 4em;
+  font-family: 'Cinzel', serif;
+}
+
+.icons-socials {
+  margin-top: -2em;
+}
+
+.icon-social {
+  width: 4em;
+  height: 4em;
+  margin: 2em;
+  cursor: pointer;
+}
+
+.icon-social:hover {
+  color: #ffffff2f;
+  transition: .3s;
+}

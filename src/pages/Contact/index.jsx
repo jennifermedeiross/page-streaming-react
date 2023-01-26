@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div>
       <HeaderHome page={'Home'} url={'/'}/>
-      <div>
+      <div className='contact'>
         <Socials />
         <img src={Avatar} alt="Avatar" />
       </div>

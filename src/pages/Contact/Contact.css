@@ -1,0 +1,16 @@
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact img {
+  width: 650px;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.contact img:hover {
+  transition: .5s;
+  scale: 1.1;
+}
