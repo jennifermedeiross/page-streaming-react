@@ -1,5 +1,5 @@
-import HeaderHome from '../../components/HeaderHome'
-import TitleHome from '../../components/TitleHome'
+import HeaderHome from 'components/HeaderHome'
+import TitleHome from 'components/TitleHome'
 
 import './Home.css'
 

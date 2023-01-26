@@ -1,6 +1,8 @@
-import HeaderHome from '../../components/HeaderHome';
-import Socials from '../../components/Socials';
+import HeaderHome from 'components/HeaderHome';
+import Socials from 'components/Socials';
 import './Contact.css';
+
+import Avatar from 'Assets/avatar.png'
 
 const Contact = () => {
   return (
@@ -8,7 +10,7 @@ const Contact = () => {
       <HeaderHome page={'Home'} url={'/'}/>
       <div>
         <Socials />
-        <img src="" alt="Avatar" />
+        <img src={Avatar} alt="Avatar" />
       </div>
     </div>
   )
