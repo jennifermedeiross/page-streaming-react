@@ -1,29 +1,25 @@
-.super-form-acess {
-  height: 100vh;
-}
-
-.form-acess {
+.form-access {
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  background: #040814;
-  height: 100%;
 }
 
-.form-acess input {
+.form-access input {
   border: 0;
   border-bottom: 1px solid #fff;
   border-left: 1px solid #fff;;
   background: transparent;
   width: 400px;
+  height: 8px;
   outline: none;
   color: #fff;
   font-size: 16px;
+  padding: 12px 12px;
 }
 
-.form-acess button {
-  background: #1B3168;
+.form-access button {
+  background: #040814;
   color: #fff;
   border: none;
   border-radius: 10px;

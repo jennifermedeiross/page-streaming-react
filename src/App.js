@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import Acess from './pages/Acess';
+import Acess from './pages/Access';
 
 function App() {
   return (

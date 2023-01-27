@@ -1,15 +1,25 @@
 import { useState } from 'react';
-import './FormAcess.css'
+import './FormAccess.css'
 
 
-const FormAcess = () => {
+const FormAccess = () => {
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
+  function handleLogin (e) {
+    e.preventDefault();
+
+    if(email !== '' && password !== ''){
+      alert('logado');
+    } else {
+      alert("Preencha todos os campos!")
+    }
+  }
+
   return (
-    <div className='super-form-acess'>
-      <form className='form-acess'>
+    <div className='super-form-access'>
+      <form className='form-access' onSubmit={handleLogin}>
         <label>E-mail</label>
         <input 
           type={'email'}
@@ -31,4 +41,4 @@ const FormAcess = () => {
   )
 }
 
-export default FormAcess;
+export default FormAccess;
