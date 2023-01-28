@@ -11,7 +11,7 @@ const FormAccess = ( {pageType} ) => {
     e.preventDefault();
 
     if(email !== '' && password !== ''){
-      alert('logado');
+      window.location('/catalog');
     } else {
       alert("Preencha todos os campos!")
     }
