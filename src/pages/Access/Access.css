@@ -47,6 +47,13 @@
   color: #fff;
 }
 
+.access-form i {
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(0, 117, 128);
+  cursor: pointer;
+}
+
 .form-access {
   display: flex;
   align-items: center;
@@ -99,11 +106,6 @@
   margin-bottom: 10px;
 }
 
-.checkbox i {
-  text-decoration: underline;
-  color: rgb(17, 0, 128);
-  cursor: pointer;
-}
 
 .checkbox input {
   height: 15px;

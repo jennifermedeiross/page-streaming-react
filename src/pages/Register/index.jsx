@@ -77,7 +77,7 @@ const Register = () => {
 
           <AutomaticAccess pageType={'Sign up'}/>
 
-          <Link to='/access'>Already have an account? Log in.</Link>
+          <Link to='/access'>Already have an account? <i>Log in.</i></Link>
 
         </div>
       </div>

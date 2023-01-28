@@ -60,7 +60,7 @@ const Access = ( ) => {
 
           <AutomaticAccess pageType={'Sign In'}/>
 
-          <Link to='/register'>Don't have an account? Register.</Link>
+          <Link to='/register'>Don't have an account? <i>Register.</i></Link>
 
         </div>
       </div>
