@@ -94,12 +94,18 @@
   margin: 20px 0;
 }
 
-.register .checkbox {
+.checkbox {
   font-size: 15px;
   margin-bottom: 10px;
 }
 
+.checkbox i {
+  text-decoration: underline;
+  color: rgb(17, 0, 128);
+  cursor: pointer;
+}
+
 .checkbox input {
   height: 15px;
-  margin-right: -170px;
+  margin-right: -180px;
 }

@@ -56,15 +56,16 @@ const Register = () => {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
-
-              <label className='checkbox'>
-                <input 
-                  type="checkbox"
-                  value={checkbox}
-                  onChange={(e) => setCheckbox(e.target.value)
-                  }
-                />I agree to all the Terms & Conditions.
-              </label>
+              <div className='checkbox'>
+                <label>
+                  <input 
+                    type="checkbox"
+                    value={checkbox}
+                    onChange={(e) => setCheckbox(e.target.value)
+                    }
+                  />I agree to all the <i>Terms & Conditions.</i>
+                </label>
+              </div>
               
               <button type="submit">Sign up</button>
 
