@@ -5,7 +5,7 @@ const HeaderHome = ( { page, url } ) => {
   return (
     <header className='headerHome'>
       <Link to={url} className='link-page'>{page}</Link>
-      <Link to='/acess' className='buttonAcess'>Sign In</Link>
+      <Link to='/access' className='buttonAcess'>Sign In</Link>
     </header>
   )
 }

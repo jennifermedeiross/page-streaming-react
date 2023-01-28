@@ -2,7 +2,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import Acess from './pages/Access';
+import Access from './pages/Access';
+import Register from './pages/Register';
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
       </Routes>
 
       <Routes>
-        <Route path='/acess' element={ <Acess /> }/>
-        <Route /> 
+        <Route path='/access' element={ <Access /> }/>
+        <Route path='/register' element={ <Register />}/> 
       </Routes>
 
     </BrowserRouter>

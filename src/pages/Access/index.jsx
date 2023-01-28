@@ -1,5 +1,6 @@
 import FormAccess from 'components/FormAccess';
 import { Link } from 'react-router-dom';
+import AutomaticAccess from '../../components/AutomaticAccess';
 import './Access.css'
 
 const Access = () => {
@@ -11,7 +12,8 @@ const Access = () => {
       <div className='access-form'>
         <h2>Sign In</h2>
         <FormAccess />
-
+        <AutomaticAccess />
+        <Link to='/register'>Don't have an account? Register.</Link>
       </div>
     </div>
   )

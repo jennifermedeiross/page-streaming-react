@@ -1,0 +1,33 @@
+.automatic-access {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.automatic-access button {
+  width: 400px;
+  height: 46px;
+  border: none;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 1px 4px 7px #000;
+  font-family: 'Noto Serif Grantha', serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #1B3168;
+  cursor: pointer;
+}
+
+.automatic-access button:hover {
+  box-shadow: 4px 6px 10px #000;
+}
+
+.icon-access {
+  margin-right: 40px;
+  margin-bottom: -8px;
+  width: 30px;
+  height: 30px;
+  color: #1B3168;
+}
+
