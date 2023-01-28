@@ -2,11 +2,11 @@ import { useState } from 'react';
 import './FormAccess.css'
 
 
-const FormAccess = () => {
+const FormAccess = ( {pageType} ) => {
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-
+  
   function handleLogin (e) {
     e.preventDefault();
 
@@ -35,7 +35,7 @@ const FormAccess = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
         
-        <button type="submit">Sign In</button>
+        <button type="submit">{pageType}</button>
       </form>
     </div>
   )
