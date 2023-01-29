@@ -51,7 +51,6 @@ const Register = () => {
               
               <label>Password</label>
               <input
-                autoComplete={false}
                 type={'password'}
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
