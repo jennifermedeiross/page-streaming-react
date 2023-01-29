@@ -1,0 +1,16 @@
+.card-movie{
+  display: inline-block;
+}
+
+.card-movie li {
+  color: #fff;
+  list-style: none;
+  font-size: bold;
+  font-family: "Noto Serif Gratha", serif;
+  font-size: 28px;
+}
+
+.card-movie img {
+  width: 292px;
+  height: 440px;
+}
