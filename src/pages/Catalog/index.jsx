@@ -2,6 +2,7 @@ import './Catalog.css'
 import api from 'services/api'
 
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Catalog = () => {
   const [movies, setMovies] = useState([]);
@@ -16,8 +17,9 @@ const Catalog = () => {
           page: 1,
         }
       })
-      
-      setMovies(response.data.results.slice(0, 10));
+
+      console.log(response.data.results.slice(0, 10))
+      setMovies(response.data.results.slice(0, 8));
     }
 
     loadMovies();
@@ -25,18 +27,21 @@ const Catalog = () => {
   }, [])
 
   return (
-    <div>
-      <ul>
+    
+    <div className='movies'>
+      <div className='presentation-list'>
         {movies.map((movie) => {
           return(
-            <div className='card-movie'>
-                <li key={movie.id}>{movie.title}</li>
-                <img src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`} alt="" />
-            </div>
+            <Link to={`/movie/${movie.id}`}>
+              <article key={movie.id} 
+                style={{backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie.poster_path}")`}}>
+                <strong>{movie.title}</strong>
+              </article>
+            </Link>
           )
    
         })}
-      </ul>
+      </div>
     </div>
   )
 }

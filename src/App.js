@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import Access from './pages/Access';
-import Register from './pages/Register';
+import Home from 'pages/Home';
+import Contact from 'pages/Contact';
+import Access from 'pages/Access';
+import Register from 'pages/Register';
 import Catalog from 'pages/Catalog';
 
 function App() {

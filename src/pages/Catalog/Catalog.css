@@ -1,16 +1,27 @@
-.card-movie{
-  display: inline-block;
+.presentation-list {
+  display: flex;
+  gap: 10px;
 }
 
-.card-movie li {
+.presentation-list a {
+  text-decoration: none;
+  
+}
+
+.presentation-list article {
+  background-size: cover;
+  width: 272px;
+  height: 420px;
+}
+
+.presentation-list article:hover {
+  scale: 1.1;
+}
+
+.presentation-list strong {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 98%;
   color: #fff;
-  list-style: none;
-  font-size: bold;
-  font-family: "Noto Serif Gratha", serif;
-  font-size: 28px;
-}
-
-.card-movie img {
-  width: 292px;
-  height: 440px;
 }
