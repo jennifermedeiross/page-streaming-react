@@ -3,6 +3,7 @@ import './CatalogMovies.css'
 import api from 'services/api'
 
 import { useEffect, useState } from 'react';
+import BannerPresentation from 'components/BannerPresentation';
 
 const CatalogMovies = () => {
   const [movies, setMovies] = useState([]);
@@ -28,6 +29,7 @@ const CatalogMovies = () => {
   return (
     
     <div className='movies'>
+      <BannerPresentation />
       <div className='presentation-list'>
         {movies.map((movie) => {
           return(
