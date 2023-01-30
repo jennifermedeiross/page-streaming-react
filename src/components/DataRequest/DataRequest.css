@@ -12,32 +12,43 @@
 }
 
 .movies h3 {
-  font-family: 'Noto Serif Gratha', serif;
-  font-size: 22px;
+  font-size: 18px;
   margin-left: 2em;
+  color: #f8f8f9;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .presentation-list {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 .presentation-list article {
+  display: flex;
+  align-items: flex-end;
   background-size: cover;
   height: 420px;
+  width: 292px;
   margin-bottom: 1em;
+  border-radius: 15px;
+  cursor: pointer; 
 }
 
 .presentation-list article:hover {
   scale: 1.04;
 }
 
-.presentation-list strong {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  height: 98%;
+.info-basic {
   width: 292px;
-  color: #fff;
-  cursor: pointer;
+  padding: .2em;
+  background: #101c3b78;
+  border-radius: 10px;
+}
+
+.info-basic p {
+  margin-left: 1em;
+}
+
+.info-basic svg{
+  color: #0b9ab7;
 }
