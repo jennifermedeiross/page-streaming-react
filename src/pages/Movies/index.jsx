@@ -1,12 +1,12 @@
 import CatalogMovies from 'components/CatalogMovies'
 import HeaderCatalog from 'components/HeaderCatalog'
-import MoviePresentation from 'components/MoviePresentation'
+import BannerPresentation from 'components/BannerPresentation'
 
 const Movies = () => {
   return (
     <div>
       <HeaderCatalog />
-      <MoviePresentation />
+      <BannerPresentation />
       <CatalogMovies />
     </div>
   )
