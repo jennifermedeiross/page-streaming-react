@@ -1,21 +1,23 @@
 import './HeaderCatalog.css';
 
 import { AiOutlineMenu, AiOutlineUser, AiOutlineSearch } from 'react-icons/ai';
-import { MdOutlineKeyboardArrowDown} from 'react-icons/md';
+import TitleHome from 'components/TitleHome';
+import Logo from 'components/Logo';
 
 const HeaderCatalog = () => {
   return (
-    <div className='header-catalog'>
-      <AiOutlineMenu></AiOutlineMenu>
-      <MdOutlineKeyboardArrowDown></MdOutlineKeyboardArrowDown>
-      
-      <div className='header-end'>
-        <div className='search'>
-          <input type='text'/><AiOutlineSearch></AiOutlineSearch>
+    <header className='header-catalog'>
+        <div className='icons-header-catalog'>
+          <AiOutlineMenu></AiOutlineMenu>
+          <Logo />
+          <div className='header-end'>
+            <div className='search'>
+              <input type='text'/><AiOutlineSearch></AiOutlineSearch>
+            </div>
+            <AiOutlineUser></AiOutlineUser>
+          </div>
         </div>
-        <AiOutlineUser></AiOutlineUser>
-      </div>
-    </div>
+    </header>
   )
 }
 

@@ -1,8 +1,9 @@
-.header-catalog {
+.icons-header-catalog{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 1em 2em;
+  margin: 0 2em 1em 2em;
+  height: 70px;
 }
 
 .header-catalog svg {
@@ -38,4 +39,5 @@
 
 .search svg {
   margin-right: 10px;
+  margin-top: 0;
 }
