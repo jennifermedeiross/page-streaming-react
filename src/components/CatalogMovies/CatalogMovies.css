@@ -3,14 +3,8 @@
   gap: 10px;
 }
 
-.presentation-list a {
-  text-decoration: none;
-  
-}
-
 .presentation-list article {
   background-size: cover;
-  width: 272px;
   height: 420px;
 }
 
@@ -23,5 +17,6 @@
   align-items: flex-end;
   justify-content: center;
   height: 98%;
+  width: 272px;
   color: #fff;
 }

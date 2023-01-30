@@ -1,10 +1,10 @@
-import './Catalog.css'
+import './CatalogMovies.css'
+
 import api from 'services/api'
 
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 
-const Catalog = () => {
+const CatalogMovies = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -18,8 +18,7 @@ const Catalog = () => {
         }
       })
 
-      console.log(response.data.results.slice(0, 10))
-      setMovies(response.data.results.slice(0, 8));
+      setMovies(response.data.results.slice(0, 7));
     }
 
     loadMovies();
@@ -32,12 +31,10 @@ const Catalog = () => {
       <div className='presentation-list'>
         {movies.map((movie) => {
           return(
-            <Link to={`/movie/${movie.id}`}>
-              <article key={movie.id} 
-                style={{backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie.poster_path}")`}}>
-                <strong>{movie.title}</strong>
-              </article>
-            </Link>
+            <article key={movie.id} 
+              style={{backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie.poster_path}")`}}>
+              <strong>{movie.title}</strong>
+            </article>
           )
    
         })}
@@ -46,4 +43,4 @@ const Catalog = () => {
   )
 }
 
-export default Catalog;
+export default CatalogMovies;

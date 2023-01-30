@@ -49,7 +49,7 @@ const Access = ( ) => {
                 onChange={(e) => setPassword(e.target.value)}
               />
               
-              <Link to={'/catalog'}><button type="submit">Sign In</button></Link>
+              <Link to={'/movies'}><button type="submit">Sign In</button></Link>
 
             </form>
 

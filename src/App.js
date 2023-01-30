@@ -4,7 +4,7 @@ import Home from 'pages/Home';
 import Contact from 'pages/Contact';
 import Access from 'pages/Access';
 import Register from 'pages/Register';
-import Catalog from 'pages/Catalog';
+import Movies from 'pages/Movies';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       </Routes>
 
       <Routes>
-        <Route path='/catalog' element={<Catalog />}/>
+        <Route path='/movies' element={<Movies />}/>
       </Routes>
 
     </BrowserRouter>
