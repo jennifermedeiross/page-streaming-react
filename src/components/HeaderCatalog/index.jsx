@@ -7,16 +7,17 @@ import Logo from 'components/Logo';
 const HeaderCatalog = () => {
   return (
     <header className='header-catalog'>
-        <div className='icons-header-catalog'>
+        <nav className='icons-header-catalog'>
           <AiOutlineMenu></AiOutlineMenu>
           <Logo />
           <div className='header-end'>
-            <div className='search'>
-              <input type='text'/><AiOutlineSearch></AiOutlineSearch>
-            </div>
+            <form>
+              <input type='text' placeholder='Search'/>
+              <button><AiOutlineSearch></AiOutlineSearch></button>
+            </form>
             <AiOutlineUser></AiOutlineUser>
           </div>
-        </div>
+        </nav>
     </header>
   )
 }

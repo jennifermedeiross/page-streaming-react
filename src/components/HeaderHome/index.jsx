@@ -4,8 +4,10 @@ import './HeaderHome.css'
 const HeaderHome = ( { page, url } ) => {
   return (
     <header className='headerHome'>
-      <Link to={url} className='link-page'>{page}</Link>
-      <Link to='/access' className='buttonAcess'>Sign In</Link>
+      <nav>
+        <Link to={url} className='link-page'>{page}</Link>
+        <Link to='/access' className='buttonAcess'>Sign In</Link>
+      </nav>
     </header>
   )
 }

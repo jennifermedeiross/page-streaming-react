@@ -19,7 +19,7 @@
   gap: 20px;
 }
 
-.search {
+.header-end form {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,7 +29,7 @@
   border-radius: 50px;
 }
 
-.search input {
+.header-end form input {
   background: transparent;
   border: none;
   color: #fff;
@@ -37,7 +37,10 @@
   outline: none;
 }
 
-.search svg {
+.header-end form button {
+  background: transparent;
+  border: none;
+  color: #fff;
   margin-right: 10px;
   margin-top: 0;
 }
