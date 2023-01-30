@@ -6,10 +6,19 @@
   height: 70px;
 }
 
+.header-catalog {
+  background: #101c3b78;
+  box-shadow: 0 7px 10px #000000;
+}
+
 .header-catalog svg {
   width: 30px;
   height: 30px;
   cursor: pointer;
+}
+
+.header-catalog svg:hover {
+  color: rgba(255, 255, 255, 0.781);
 }
 
 .header-end {

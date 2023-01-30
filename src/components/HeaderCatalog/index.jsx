@@ -1,7 +1,6 @@
 import './HeaderCatalog.css';
 
-import { AiOutlineMenu, AiOutlineUser, AiOutlineSearch } from 'react-icons/ai';
-import TitleHome from 'components/TitleHome';
+import { AiOutlineMenu, AiOutlineUser, AiOutlineSearch} from 'react-icons/ai';
 import Logo from 'components/Logo';
 
 const HeaderCatalog = () => {

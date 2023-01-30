@@ -1,3 +1,9 @@
+.movies h3 {
+  font-family: 'Noto Serif Gratha', serif;
+  font-size: 22px;
+  margin-left: 2em;
+}
+
 .presentation-list {
   display: flex;
   gap: 10px;
@@ -17,7 +23,7 @@
   align-items: flex-end;
   justify-content: center;
   height: 98%;
-  width: 272px;
+  width: 292px;
   color: #fff;
   cursor: pointer;
 }

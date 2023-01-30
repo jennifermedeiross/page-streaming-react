@@ -2,8 +2,7 @@ import './BannerPresentation.css';
 
 const BannerPresentation = () => {
   return (
-    <div>
-      BannerPresentation
+    <div className='banner-presentation'>
     </div>
   )
 }
