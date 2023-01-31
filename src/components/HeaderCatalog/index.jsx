@@ -1,9 +1,12 @@
 import './HeaderCatalog.css';
 
-import { AiOutlineMenu, AiOutlineUser, AiOutlineSearch} from 'react-icons/ai';
+import { AiOutlineSearch} from 'react-icons/ai';
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+
 import Logo from 'components/Logo';
+import MenuHamburguer from 'components/MenuHamburguer';
+import MenuUser from 'components/MenuUser';
 
 const HeaderCatalog = () => {
 
@@ -22,7 +25,7 @@ const HeaderCatalog = () => {
   return (
     <header className='header-catalog'>
         <nav className='icons-header-catalog'>
-          <AiOutlineMenu></AiOutlineMenu>
+          <MenuHamburguer />
           <Link to={'/movies'}><Logo /></Link>
           <div className='header-end'>
             <form onSubmit={handleSubmit}>
@@ -34,7 +37,7 @@ const HeaderCatalog = () => {
               />
               <button><AiOutlineSearch></AiOutlineSearch></button>
             </form>
-            <AiOutlineUser></AiOutlineUser>
+            <MenuUser />
           </div>
         </nav>
     </header>
