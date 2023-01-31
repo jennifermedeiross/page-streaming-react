@@ -10,12 +10,7 @@ const Access = ( ) => {
   
   function handleLogin (e) {
     e.preventDefault();
-
-    if(email !== '' && password !== ''){
-      window.location('/catalog');
-    } else {
-      alert("Preencha todos os campos!")
-    }
+    window.location('/catalog');
   }
 
   return (
