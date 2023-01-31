@@ -5,6 +5,7 @@ import Contact from 'pages/Contact';
 import Access from 'pages/Access';
 import Register from 'pages/Register';
 import Catalog from 'pages/Catalog';
+import Search from 'pages/Search';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
 
       <Routes>
         <Route path='/movies' element={<Catalog />}/>
+        <Route path='/search' element={ <Search />}/>
       </Routes>
 
     </BrowserRouter>

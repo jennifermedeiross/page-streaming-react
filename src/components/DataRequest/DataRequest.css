@@ -18,37 +18,3 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.presentation-list {
-  display: flex;
-  gap: 8px;
-}
-
-.presentation-list article {
-  display: flex;
-  align-items: flex-end;
-  background-size: cover;
-  height: 420px;
-  width: 292px;
-  margin-bottom: 1em;
-  border-radius: 15px;
-  cursor: pointer; 
-}
-
-.presentation-list article:hover {
-  scale: 1.04;
-}
-
-.info-basic {
-  width: 292px;
-  padding: .2em;
-  background: #101c3b78;
-  border-radius: 10px;
-}
-
-.info-basic p {
-  margin-left: 1em;
-}
-
-.info-basic svg{
-  color: #0b9ab7;
-}

@@ -1,0 +1,43 @@
+.presentation-list {
+  display: flex;
+  gap: 8px;
+}
+
+.presentation-list article, .presentation-list-search article {
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  height: 420px;
+  width: 292px;
+  margin-bottom: 1em;
+  border-radius: 15px;
+  cursor: pointer; 
+}
+
+.presentation-list article:hover, .presentation-list-search article:hover {
+  scale: 1.04;
+}
+
+.info-basic {
+  width: 292px;
+  padding: .2em;
+  background: #101c3b78;
+  border-radius: 10px;
+}
+
+.info-basic p {
+  margin-left: 1em;
+}
+
+.info-basic svg{
+  color: #0b9ab7;
+}
+
+.erro {
+  height: 100%;
+  width: 100vw;
+  text-align: center;
+  font-size: 4em;
+  margin-top: 4em;
+  color: rgba(146, 8, 8, 0.922);
+}

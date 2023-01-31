@@ -6,6 +6,11 @@
   height: 70px;
 }
 
+.icons-header-catalog a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .header-catalog {
   background: #101c3b78;
   box-shadow: 0 7px 10px #000000;
