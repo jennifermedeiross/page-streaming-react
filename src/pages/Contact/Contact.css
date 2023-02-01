@@ -6,12 +6,12 @@
 }
 
 .contact img {
-  width: 600px;
+  width: 32%;
   transition: .5s;
   cursor: pointer;
 }
 
 .contact img:hover {
   transition: .5s;
-  scale: 1.1;
+  scale: 1.05;
 }
