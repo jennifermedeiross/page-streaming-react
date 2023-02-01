@@ -7,7 +7,7 @@ const CardsMovies = ({ movies }) => {
     <>
       {movies.length > 0 ?
         movies.map((movie) => (
-        <article 
+        <article
           key={movie.id} 
           style={{backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie.poster_path}")`}}
         > 
