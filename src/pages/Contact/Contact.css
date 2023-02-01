@@ -2,10 +2,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 80vh;
 }
 
 .contact img {
-  width: 650px;
+  width: 600px;
   transition: .5s;
   cursor: pointer;
 }
