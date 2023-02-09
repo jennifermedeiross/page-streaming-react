@@ -1,5 +1,6 @@
 import './BannerPresentation.css';
 
+
 const BannerPresentation = () => {
   return (
     <div className='banner-presentation'>

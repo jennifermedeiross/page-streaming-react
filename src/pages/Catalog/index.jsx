@@ -1,4 +1,4 @@
-import './Catalog.css'
+import './Catalog.css';
 
 import DataRequest from 'components/DataRequest';
 import HeaderCatalog from 'components/HeaderCatalog';

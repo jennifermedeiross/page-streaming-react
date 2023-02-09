@@ -21,4 +21,4 @@ const CardsMovies = ({ movies }) => {
   )
 }
 
-export default CardsMovies
+export default CardsMovies;

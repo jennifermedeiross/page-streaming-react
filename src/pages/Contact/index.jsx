@@ -2,7 +2,7 @@ import HeaderHome from 'components/HeaderHome';
 import Socials from 'components/Socials';
 import './Contact.css';
 
-import Avatar from 'Assets/avatar.png'
+import Avatar from 'Assets/avatar.png';
 
 const Contact = () => {
   return (

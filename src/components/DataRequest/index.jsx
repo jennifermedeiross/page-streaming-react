@@ -37,4 +37,4 @@ const DataRequest = ({url, title}) => {
   )
 }
 
-export default DataRequest
+export default DataRequest;
