@@ -30,7 +30,7 @@ const HeaderCatalog = () => {
           <div className='header-end'>
             <form onSubmit={handleSubmit}>
               <input 
-                type='text' 
+                type='search' 
                 placeholder='Search'
                 onChange={(e) => setSearch(e.target.value)}
                 value={search}
