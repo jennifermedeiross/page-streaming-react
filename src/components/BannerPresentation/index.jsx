@@ -5,6 +5,7 @@ import { AiFillStar } from 'react-icons/ai';
 import { useEffect, useState } from 'react';
 
 import api from 'services/api';
+import { Link } from 'react-router-dom';
 
 const BannerPresentation = () => {
   const [bannerMovie, setBannerMovie] = useState({});
@@ -37,7 +38,7 @@ const BannerPresentation = () => {
         <p className='banner-presentation-stars'><AiFillStar></AiFillStar>{bannerMovie.vote_average}</p>
         <h4 className='banner-presentation-description'>{bannerMovie.overview}</h4>
       </div>
-      <button className='banner-presentation-btn'>Watch new</button>
+      <Link to='/reproduce'><button className='banner-presentation-btn'>Watch new</button></Link>
     </div>
   )
 }

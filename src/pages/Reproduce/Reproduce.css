@@ -1,0 +1,25 @@
+.reproduce {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.reproduce a{
+  align-self: flex-start;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 1em;
+  font-size: 1.5em;
+}
+
+.reproduce svg {
+  margin-right: 10px;
+}
+
+.reproduce video {
+  width: 90%;
+  height: 90vh;
+  border-radius: 20px;
+}

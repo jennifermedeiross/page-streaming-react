@@ -6,6 +6,7 @@ import Access from 'pages/Access';
 import Register from 'pages/Register';
 import Catalog from 'pages/Catalog';
 import Search from 'pages/Search';
+import Reproduce from 'pages/Reproduce';
 
 function App() {
   return (
@@ -13,18 +14,12 @@ function App() {
       <Routes>
         <Route path='/' element={ <Home/> }/>
         <Route path='/contact' element={ <Contact /> } />        
-      </Routes>
-
-      <Routes>
         <Route path='/access' element={ <Access /> }/>
         <Route path='/register' element={ <Register />}/> 
-      </Routes>
-
-      <Routes>
         <Route path='/movies' element={<Catalog />}/>
         <Route path='/search' element={ <Search />}/>
+        <Route path='/reproduce' element={ <Reproduce />}/>
       </Routes>
-
     </BrowserRouter>
     
   );
