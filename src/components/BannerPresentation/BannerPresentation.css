@@ -1,11 +1,19 @@
 .banner-presentation {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 5px;
   height: 60vh;
-  background: #1b316881;
   padding: 1em;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-presentation-infos {
+  background-color: #101c3b78;
+  padding: 10px;
+  width: 35%;
+  border-radius: 20px;
 }
 
 .banner-presentation-title {
@@ -14,15 +22,21 @@
 
 .banner-presentation-description{
   font-size: 1em;
+  text-align: justify;
+}
+
+.banner-presentation-stars svg {
+  color: #0b9ab7;
 }
 
 .banner-presentation-btn {
+  margin-top: 1em;
   font-size: 16px;
   width: 120px;
   height: 46px;
   border-radius: 15px;
-  border: 1px solid blue;
-  background-color: transparent;
+  border: none;
+  background-color: #1b3168bc;
   color: #fff;
   cursor: pointer;
   transition: linear .2s;
@@ -30,5 +44,5 @@
 
 .banner-presentation-btn:hover {
   transition: linear .2s;
-  background-color: #0813328d;
+  background-color: #081332c6;
 }
