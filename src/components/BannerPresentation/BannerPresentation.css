@@ -1,9 +1,34 @@
 .banner-presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 5px;
   height: 60vh;
   background: #1b316881;
+  padding: 1em;
 }
 
-.banner-presentation img {
-  width: 100%;
-  height: 100%;
+.banner-presentation-title {
+  font-size: 2em;
+}
+
+.banner-presentation-description{
+  font-size: 1em;
+}
+
+.banner-presentation-btn {
+  font-size: 16px;
+  width: 120px;
+  height: 46px;
+  border-radius: 15px;
+  border: 1px solid blue;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: linear .2s;
+}
+
+.banner-presentation-btn:hover {
+  transition: linear .2s;
+  background-color: #0813328d;
 }

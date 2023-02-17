@@ -12,4 +12,4 @@ const HeaderHome = ( { page, url } ) => {
   )
 }
 
-export default HeaderHome
+export default HeaderHome;
